@@ -40,9 +40,14 @@
 # studentInfo('nman', 17)
 # studentInfo(name="neman", age=17)
 
-def greet(*names):
-    # print(f"Hello {name}")
-    for name in names:
-        print(f"Hello {name}")
+# def greet(*names):
+#     # print(f"Hello {name}")
+#     for name in names:
+#         print(f"Hello {name}")
     
-greet('shayan', 'faisal', 'yaser', 'nima', 'yaqoob', 'samim')
+# greet('shayan', 'faisal', 'yaser', 'nima', 'yaqoob', 'samim')
+
+def sayGoodNight(name):
+    print(f"Good night Mr/Ms: {name}")
+    
+sayGoodNight("john Doe")
